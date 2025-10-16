@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">JobCompare6300</string>
+    <string name="edit_current_job">Enter/Edit Current Job</string>
+    <string name="enter_job_offer">Enter Job Offer</string>
+    <string name="adjust_comparison_settings">Adjust Comparison Settings</string>
+    <string name="compare_jobs">Compare Jobs</string>
+    <string name="save">Save</string>
+    <string name="back">Back</string>
+    <string name="job_title">Job Title</string>
+    <string name="company">Company</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="cost_of_living_index">Cost of Living Index</string>
+    <string name="yearly_salary">Yearly Salary</string>
+    <string name="yearly_bonus">Yearly Bonus</string>
+    <string name="internet_stipend">Internet Stipend ($)</string>
+    <string name="accident_insurance">Accident Insurance ($)</string>
+    <string name="tuition_reimbursement">Tuition Reimbursement ($)</string>
+    <string name="_401k_match">401K Match (%)</string>
+    <string name="add_another_offer">Add Another Offer</string>
+    <string name="compare_with_current_job">Compare with Current Job</string>
+    <string name="return_to_main_menu">Return To Main Menu</string>
+    <string name="cancel_exit">Cancel/Exit</string>
+    <string name="compare_again">Compare Again</string>
+</resources>
