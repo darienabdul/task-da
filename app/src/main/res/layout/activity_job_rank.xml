@@ -12,6 +12,8 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <include layout="@layout/header_logo" />
+
         <TextView
             android:id="@+id/textListTitle"
             android:layout_width="match_parent"

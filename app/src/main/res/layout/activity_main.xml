@@ -13,6 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <include layout="@layout/header_logo" />
+
         <Button android:id="@+id/btnEditCurrentJob"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

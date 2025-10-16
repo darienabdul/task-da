@@ -3,7 +3,32 @@
     <style name="Base.Theme.JobCompare6300" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:buttonStyle">@style/CustomButton</item>
+        <item name="android:editTextStyle">@style/CustomEditText</item>
+        <item name="android:textViewStyle">@style/CustomTextView</item>
     </style>
 
     <style name="Theme.JobCompare6300" parent="Base.Theme.JobCompare6300" />
+
+    <style name="CustomButton" parent="android:Widget.Button">
+        <item name="android:background">@color/custom_purple</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="CustomEditText" parent="android:Widget.EditText">
+        <item name="android:background">@drawable/custom_input_border</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="CustomTextView" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/custom_purple</item>
+    </style>
+    <style name="CustomTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/custom_purple</item>
+        <item name="hintTextColor">@color/custom_purple</item>
+    </style>
+    <style name="CustomAutoCompleteTextView" parent="android:Widget.AutoCompleteTextView">
+        <item name="boxStrokeColor">@color/custom_purple</item>
+    </style>
 </resources>
