@@ -2,7 +2,10 @@ package edu.gatech.seclass.jobcompare6300.ui;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Typeface;
 import android.os.Bundle;
+import android.view.Gravity;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TableLayout;
 import android.widget.TableRow;
@@ -89,15 +92,23 @@ public class JobCompareActivity extends AppCompatActivity {
 
         TextView tvLabel = new TextView(this);
         tvLabel.setText(label);
+        tvLabel.setTypeface(null, Typeface.BOLD);
+        tvLabel.setTextSize(18);
         tvLabel.setPadding(8, 8, 8, 8);
 
         TextView tv1 = new TextView(this);
         tv1.setText(value1);
+        tv1.setTextSize(18);
         tv1.setPadding(8, 8, 8, 8);
+        tv1.setGravity(Gravity.END);
+        tv1.setTextAlignment(View.TEXT_ALIGNMENT_VIEW_END);
 
         TextView tv2 = new TextView(this);
         tv2.setText(value2);
+        tv2.setTextSize(18);
         tv2.setPadding(8, 8, 8, 8);
+        tv2.setGravity(Gravity.END);
+        tv2.setTextAlignment(View.TEXT_ALIGNMENT_VIEW_END);
 
         row.addView(tvLabel);
         row.addView(tv1);

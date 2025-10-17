@@ -152,36 +152,30 @@
 
             <Button
                 android:id="@+id/button_back"
-                android:text="@string/back"
-                android:layout_width="wrap_content"
+                android:text="@string/return_to_main_menu"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="0.5"
                 android:layout_marginEnd="16dp" />
 
             <Button
                 android:id="@+id/button_save"
                 android:text="@string/save"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
                 android:layout_height="wrap_content" />
         </LinearLayout>
 
-        <LinearLayout
+        <Button
+            android:id="@+id/button_add_another"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center">
+            android:text="@string/add_another_offer" />
 
-            <Button
-                android:id="@+id/button_add_another"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/add_another_offer" />
-
-            <Button
-                android:id="@+id/button_compare_offer"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/compare_with_current_job" />
-        </LinearLayout>
-
+        <Button
+            android:id="@+id/button_compare_offer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/compare_with_current_job" />
     </LinearLayout>
 </ScrollView>

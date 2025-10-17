@@ -119,6 +119,7 @@ public class JobRankActivity extends AppCompatActivity {
 
             TextView textViewTitle = new TextView(this);
             textViewTitle.setText(rankedJob.job.title);
+            textViewTitle.setTextSize(20);
             textViewTitle.setPadding(8, 8, 8, 8);
             row.addView(textViewTitle);
 

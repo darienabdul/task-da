@@ -28,7 +28,8 @@
         <item name="boxStrokeColor">@color/custom_purple</item>
         <item name="hintTextColor">@color/custom_purple</item>
     </style>
-    <style name="CustomAutoCompleteTextView" parent="android:Widget.AutoCompleteTextView">
-        <item name="boxStrokeColor">@color/custom_purple</item>
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:background">@color/white</item>
     </style>
 </resources>

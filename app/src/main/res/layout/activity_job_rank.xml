@@ -20,7 +20,7 @@
             android:layout_height="37dp"
             android:text="Job Ranking from High to Low"
             android:textAlignment="center"
-            android:textSize="16sp"
+            android:textSize="22sp"
             android:textStyle="bold" />
 
         <ScrollView
@@ -43,12 +43,14 @@
 
                     <TextView
                         android:id="@+id/textCheckbox"
+                        android:textSize="21sp"
                         android:layout_width="30dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1" />
 
                     <TextView
                         android:id="@+id/textCompany"
+                        android:textSize="21sp"
                         android:layout_width="173dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="2"
@@ -57,6 +59,7 @@
 
                     <TextView
                         android:id="@+id/textTitle"
+                        android:textSize="21sp"
                         android:layout_width="153dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="2"
@@ -68,25 +71,17 @@
             </TableLayout>
         </ScrollView>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
             <Button
                 android:id="@+id/returnButton"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Return to Main Menu" />
+                android:text="@string/return_to_main_menu" />
 
             <Button
                 android:id="@+id/compareButton"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Compare" />
-        </LinearLayout>
+                android:text="@string/compare" />
 
     </LinearLayout>
 
