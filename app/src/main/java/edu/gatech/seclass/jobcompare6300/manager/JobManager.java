@@ -93,7 +93,7 @@ public class JobManager {
 
     // ONLY FOR DEV/TESTING USE
     // TODO: REMOVE BEFORE SUBMISSION
-    private void clearAllJobsData() {
+    public void clearAllJobsData() {
         currentJob = null;
         jobOffers.clear();
         prefs.edit()
